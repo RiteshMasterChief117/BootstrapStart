@@ -1,0 +1,27 @@
+<div class="panel-group" id="accordian1">
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4 class="panel-title">
+                <a href="#cla6" data-parent="#accordian1" data-toggle="collapse"
+                  >collapsable accordian</a
+                >
+              </h4>
+            </div>
+            <div class="collapse panel-collapse" id="cla6">
+              <div class="panel-body">This is the accordian area</div>
+            </div>
+          </div>
+          <div class="panel panel-default">
+            <div class="panelheading">
+              <h4 class="panel-title">
+                <a href="#cla7" data-parent="#accordian1" data-toggle="collapse"
+                  >collapsable accordian</a
+                >
+              </h4>
+            </div>
+            <div class="collapse panel-collapse" id="cla7">
+              <div class="panel-body">This is the accordian area</div>
+            </div>
+          </div>
+        </div>
+      </div>
