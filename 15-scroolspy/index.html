@@ -8,43 +8,49 @@
     <script src="js/jquery.js"></script>
     <script src="js/bootstrap.js"></script>
     <style>
+      * {
+        margin:0;        
+        padding:0
+      }
       section {
         width: 100vw;
         height: 100vh;
       }
+      h1 {
+        margin:0;        
+        padding:0
+      }
     </style>
     <title>Document</title>
   </head>
-  <body>
-    <div class="container">
-      <nav class="navbar navbar-default">
-        <ul class="nav navbar-nav">
-          <li>
-            <a href="#software">Software</a>
-          </li>
-          <li>
-            <a href="#music">Music</a>
-          </li>
-          <li>
-            <a href="#science">Science</a>
-          </li>
-          <li>
-            <a href="#technology">Technology</a>
-          </li>
-        </ul>
-      </nav>
-      <section id="software">
-        <h1>This is the home section</h1>
-      </section>
-      <section id="music">
-        <h1>This is the Music section</h1>
-      </section>
-      <section id="science">
-        <h1>This is the Science section</h1>
-      </section>
-      <section id="technology">
-        <h1>This is the Technology section</h1>
-      </section>
-    </div>
+  <body data-spy="scrool" data-target=".navbar">
+    <nav class="navbar navbar-default navbar-fixed-bottom">
+      <ul class="nav navbar-nav">
+        <li>
+          <a href="#software">Software</a>
+        </li>
+        <li>
+          <a href="#music">Music</a>
+        </li>
+        <li>
+          <a href="#science">Science</a>
+        </li>
+        <li>
+          <a href="#technology">Technology</a>
+        </li>
+      </ul>
+    </nav>
+    <section id="software" style="background: lightgreen">
+      <h1>This is the Software section</h1>
+    </section>
+    <section id="music" style="background: lightblue">
+      <h1>This is the Music section</h1>
+    </section>
+    <section id="science" style="background: lightcoral">
+      <h1>This is the Science section</h1>
+    </section>
+    <section id="technology" style="background: lightgrey">
+      <h1>This is the Technology section</h1>
+    </section>
   </body>
 </html>
